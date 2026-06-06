@@ -1,39 +1,39 @@
 # Smart Job Portal System
 
-A Java and MySQL based Job Portal System that allows candidates to search and apply for jobs while enabling administrators to manage job postings and applications.
+## Overview
+A console-based Job Portal System developed using Java and Object-Oriented Programming concepts.
 
 ## Features
-
-* User Registration & Login
-* View Available Jobs
-* Search Jobs by Skills
-* Apply for Jobs
-* Track Application Status
-* Admin Job Management
-* MySQL Database Integration
+- User Registration
+- User Login
+- View Jobs
+- Search Jobs
+- Apply for Jobs
+- Admin Job Management
+- Database Connection Layer
 
 ## Technologies Used
-
-* Java
-* MySQL
-* JDBC
-* OOPs Concepts
+- Java
+- OOP
+- Git
+- GitHub
+- MySQL (Planned)
+- JDBC (Planned)
 
 ## Project Structure
-
-* User Module
-* Job Module
-* Application Module
-* Admin Module
-* Database Connectivity
+src/
+├── User.java
+├── Job.java
+├── Application.java
+├── UserService.java
+├── JobService.java
+├── AdminService.java
+├── DBConnection.java
+└── Main.java
 
 ## Future Enhancements
-
-* Resume Upload
-* Email Notifications
-* ATS Score Checker
-* Web-based Interface
-
-## Author
-
-Rohit Kumar
+- MySQL Integration
+- JDBC Connectivity
+- User Authentication
+- Real Database Storage
+- GUI Interface

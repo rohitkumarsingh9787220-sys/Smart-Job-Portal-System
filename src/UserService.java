@@ -1,10 +1,11 @@
-public class UserService {
+public void registerUser(String name, String email) {
+    System.out.println("User Registered: " + name);
+}
 
-    public void registerUser() {
-        System.out.println("User Registered");
-    }
+public void loginUser(String email) {
+    System.out.println("User Logged In: " + email);
+}
 
-    public void loginUser() {
-        System.out.println("User Logged In");
-    }
+public void viewProfile() {
+    System.out.println("Displaying User Profile");
 }

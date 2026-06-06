@@ -1,17 +1,16 @@
 public class User {
-
     private int userId;
     private String name;
     private String email;
     private String password;
-    private String skills;
+    private String role;
 
-    public User(int userId, String name, String email, String password, String skills) {
+    public User(int userId, String name, String email, String password, String role) {
         this.userId = userId;
         this.name = name;
         this.email = email;
         this.password = password;
-        this.skills = skills;
+        this.role = role;
     }
 
     public int getUserId() {
@@ -26,7 +25,18 @@ public class User {
         return email;
     }
 
-    public String getSkills() {
-        return skills;
+    public String getPassword() {
+        return password;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public void displayUser() {
+        System.out.println("User ID: " + userId);
+        System.out.println("Name: " + name);
+        System.out.println("Email: " + email);
+        System.out.println("Role: " + role);
     }
 }

@@ -27,4 +27,11 @@ public class Application {
     public String getStatus() {
         return status;
     }
+
+    public void displayApplication() {
+        System.out.println("Application ID: " + applicationId);
+        System.out.println("User ID: " + userId);
+        System.out.println("Job ID: " + jobId);
+        System.out.println("Status: " + status);
+    }
 }
